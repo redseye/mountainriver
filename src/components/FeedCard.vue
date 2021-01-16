@@ -10,9 +10,9 @@
       href="#!"
     >
       <v-img
-        :src="require(`@/assets/articles/${value.hero}`)"
+        :src="require(`@/assets/${value.hero}`)"
         height="100%"
-        gradient="rgba(0, 0, 0, .42), rgba(0, 0, 0, .42)"
+       
       >
         <v-row
           v-if="!value.prominent"
@@ -35,7 +35,7 @@
             </h3>
 
             <div class="caption">
-              {{ value.author }}<br>Date
+              {{ value.author }}
             </div>
           </v-col>
 
@@ -47,7 +47,7 @@
               small
               @click.stop=""
             >
-              Read More
+              了解更多
             </v-chip>
           </v-col>
         </v-row>

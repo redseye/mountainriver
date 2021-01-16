@@ -4,7 +4,7 @@
     color="secondary"
     fab
     fixed
-    href="https://store.vuetifyjs.com/product/blog-theme-free"
+    href=""
     rel="noopener"
     right
     target="_blank"

@@ -14,9 +14,9 @@
           :src="require('@/assets/logo.png')"
           class="mr-5"
           contain
-          height="48"
-          width="48"
-          max-width="48"
+          height="60"
+          width="200"
+          max-width="500"
           @click="$vuetify.goTo(0)"
         />
 
@@ -24,7 +24,8 @@
           v-for="(link, i) in links"
           :key="i"
           v-bind="link"
-          class="hidden-sm-and-down"
+          x-large
+          class="hidden-md-and-down title"
           text
           @click="onClick($event, link)"
         >

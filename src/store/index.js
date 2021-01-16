@@ -9,13 +9,25 @@ export default new Vuex.Store({
     drawer: false,
     items: [
       {
-        text: 'Home',
+        text: '首頁',
         href: '#!',
       },
       {
-        text: 'About',
+        text: '了解山川匯',
         href: '#about',
       },
+      {
+        text: '客房介紹',
+        href: '#GuestRoom',
+      },
+      {
+        text: '訂房需知',
+        href: '#Notice',
+      },
+      {
+        text: '交通資訊',
+        href: '#Traffic',
+      }
     ],
   },
   getters: {
@@ -39,7 +51,7 @@ export default new Vuex.Store({
       return categories.sort().slice(0, 4)
     },
     links: (state, getters) => {
-      return state.items.concat(getters.categories)
+      return state.items
     },
   },
   mutations: {

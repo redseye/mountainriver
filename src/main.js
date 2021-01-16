@@ -7,6 +7,9 @@ import store from './store'
 
 Vue.config.productionTip = false
 
+import 'vuetify/dist/vuetify.min.css'
+
+
 new Vue({
   vuetify,
   router,

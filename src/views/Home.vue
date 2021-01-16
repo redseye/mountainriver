@@ -2,11 +2,8 @@
   <div id="home">
     <articles>
       <banner />
+    <!-- <about /> -->
     </articles>
-
-    <about />
-
-    <subscribe />
 
     <social />
   </div>

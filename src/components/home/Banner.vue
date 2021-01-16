@@ -1,9 +1,9 @@
 <template>
   <base-card dark>
     <v-img
-      :src="require('@/assets/articles/blurcamera.jpg')"
+      :src="require('@/assets/Lobby/IMG_2561.png')"
       class="grey lighten-2"
-      height="400"
+      height="800"
       width="100%"
     >
       <v-row
@@ -16,18 +16,18 @@
           offset-md="5"
         >
           <h1 class="display-3 font-weight-light">
-            The Art Of Travel
+            主標?
           </h1>
 
           <div class="subheading text-uppercase pl-2 mb-4">
-            Finding Beauty, One flight at a time
+            副標?
           </div>
 
           <v-btn
             color="primary"
             depressed
           >
-            Subscribe
+            有無需要描述主題按鈕?
           </v-btn>
         </v-col>
       </v-row>
