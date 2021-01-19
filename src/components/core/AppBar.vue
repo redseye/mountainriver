@@ -14,7 +14,7 @@
           :src="require('@/assets/logo.png')"
           class="mr-5"
           contain
-          height="60"
+          height="100"
           width="200"
           max-width="500"
           @click="$vuetify.goTo(0)"
